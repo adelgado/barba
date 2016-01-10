@@ -43,3 +43,8 @@ group :development, :test do
   gem 'spring'
 end
 
+# Authentication
+gem 'rack-cors', :require => 'rack/cors'
+gem 'devise'
+gem 'cancancan'
+gem 'rolify'
